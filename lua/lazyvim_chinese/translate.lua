@@ -162,6 +162,8 @@ M.cn = {
 	["<leader><tab><tab>"] = "新建标签",
 }
 
+M.cn_v = {}
+
 M.en = {
 	["<leader>D"] = "Toggle DBUI",
 	["<leader>e"] = "Explorer Snacks (root dir)",
@@ -323,5 +325,7 @@ M.en = {
 	["<leader><tab>]"] = "Next Tab",
 	["<leader><tab><tab>"] = "New Tab",
 }
+
+M.en_v = {}
 
 return M

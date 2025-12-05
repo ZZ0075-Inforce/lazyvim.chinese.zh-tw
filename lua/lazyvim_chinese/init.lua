@@ -2,10 +2,11 @@ local M = {}
 
 local wk_ok, wk = pcall(require, "which-key")
 local translate = require("lazyvim_chinese.translate")
+local dashboard = require("lazyvim_chinese.dashboard")
 
 local enabled = false
 
-local function apply(trans_map)
+local function apply(trans_map, mode)
 	if not wk_ok then
 		return
 	end
@@ -13,7 +14,7 @@ local function apply(trans_map)
 	for lhs, name in pairs(trans_map) do
 		regs[lhs] = { name = name }
 	end
-	wk.register(regs)
+	wk.register(regs, { mode = mode or "n" })
 end
 
 function M.enable()
@@ -22,6 +23,8 @@ function M.enable()
 	end
 	enabled = true
 	apply(translate.cn)
+	apply(translate.cn_v, "v")
+	dashboard.apply(true)
 end
 
 function M.disable()
@@ -30,6 +33,8 @@ function M.disable()
 	end
 	enabled = false
 	apply(translate.en)
+	apply(translate.en_v, "v")
+	dashboard.apply(false)
 end
 
 function M.toggle()
@@ -57,9 +62,20 @@ function M.setup()
 		callback = function()
 			if enabled then
 				apply(translate.cn)
+				apply(translate.cn_v, "v")
+				dashboard.apply(true)
 			else
 				apply(translate.en)
+				apply(translate.en_v, "v")
+				dashboard.apply(false)
 			end
+		end,
+	})
+
+	vim.api.nvim_create_autocmd("User", {
+		pattern = "AlphaReady",
+		callback = function()
+			dashboard.apply(enabled)
 		end,
 	})
 end
