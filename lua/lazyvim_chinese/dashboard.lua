@@ -54,12 +54,7 @@ local function apply_snacks(map)
 			item.desc = map[d]
 		end
 	end
-	local ok2, sd = pcall(require, "snacks.dashboard")
-	if ok2 then
-		pcall(function()
-			sd()
-		end)
-	end
+	-- 不重新渲染 dashboard，避免 augroup 錯誤
 	return true
 end
 

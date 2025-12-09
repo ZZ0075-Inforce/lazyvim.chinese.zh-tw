@@ -10,11 +10,22 @@ local function apply(trans_map, mode)
 	if not wk_ok then
 		return
 	end
-	local regs = {}
-	for lhs, name in pairs(trans_map) do
-		regs[lhs] = { name = name }
+	
+	if wk.add then
+		-- which-key v3 syntax
+		local specs = {}
+		for lhs, name in pairs(trans_map) do
+			table.insert(specs, { lhs, group = name, mode = mode or "n" })
+		end
+		wk.add(specs)
+	else
+		-- which-key v2 syntax (deprecated)
+		local regs = {}
+		for lhs, name in pairs(trans_map) do
+			regs[lhs] = { name = name }
+		end
+		wk.register(regs, { mode = mode or "n" })
 	end
-	wk.register(regs, { mode = mode or "n" })
 end
 
 function M.enable()
