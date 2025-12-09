@@ -52,7 +52,7 @@ function M.setup()
 		function()
 			require("lazyvim_chinese").toggle()
 		end,
-		{ desc = "菜单汉化切换" }
+		{ desc = "菜單中文化切換" }
 	)
 
 	M.enable()

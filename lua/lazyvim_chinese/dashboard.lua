@@ -1,14 +1,14 @@
 local M = {}
 
 local en_to_cn = {
-	["Find File"] = "查找文件",
-	["New File"] = "新建文件",
-	["Projects"] = "项目",
-	["Find Text"] = "查找文本",
-	["Recent Files"] = "最近文件",
-	["Config"] = "配置",
-	["Restore Session"] = "恢复会话",
-	["Lazy Extras"] = "Lazy 扩展",
+	["Find File"] = "搜尋檔案",
+	["New File"] = "新增檔案",
+	["Projects"] = "專案",
+	["Find Text"] = "搜尋文字",
+	["Recent Files"] = "最近檔案",
+	["Config"] = "設定",
+	["Restore Session"] = "恢復工作階段",
+	["Lazy Extras"] = "Lazy 擴充功能",
 	["Lazy"] = "Lazy",
 	["Quit"] = "退出",
 }

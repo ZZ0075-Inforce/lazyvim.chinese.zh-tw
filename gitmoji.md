@@ -1,73 +1,73 @@
 # [gitmoji](https://gitmoji.dev)
 
-- 🎨:art:改进代码的结构/格式。
-- ⚡:zap:提高性能。
-- 🔥:fire:删除代码或文件。
-- 🐛:bug:修复一个错误。
-- 🚑️:ambulance:关键修补程序。
+- 🎨:art:改進程式碼結構/格式。
+- ⚡:zap:提高效能。
+- 🔥:fire:刪除程式碼或檔案。
+- 🐛:bug:修復一個錯誤。
+- 🚑️:ambulance:關鍵修補程式。
 - ✨:sparkles:引入新功能。
-- 📝:memo:添加或更新文档。
-- 🚀:rocket:部署东西。
-- 💄:lipstick:添加或更新 UI 和样式文件。
-- 🎉:tada:开始一个项目。
-- ✅:white_check_mark:添加、更新或通过测试。
-- 🔒️:lock:修复安全问题。
-- 🔐:closed_lock_with_key:添加或更新机密。
-- 🔖:bookmark:发布/版本标签。
-- 🚨:rotating_light:修复编译器/linter 警告。
-- 🚧:construction:工作正在进行中。
-- 💚:green_heart:修复 CI 构建。
-- ⬇️:arrow_down:降级依赖。
-- ⬆️:arrow_up:升级依赖项。
-- 📌:pushpin:将依赖项固定到特定版本。
-- 👷:construction_worker:添加或更新 CI 构建系统。
-- 📈:chart_with_upwards_trend:添加或更新分析或跟踪代码。
-- ♻️:recycle:重构代码。
-- ➕:heavy_plus_sign:添加依赖项。
-- ➖:heavy_minus_sign:删除依赖项。
-- 🔧:wrench:添加或更新配置文件。
-- 🔨:hammer:添加或更新开发脚本。
-- 🌐:globe_with_meridians:国际化和本地化。
-- ✏️:pencil2:修正错别字。
-- 💩:poop:编写需要改进的糟糕代码。
-- ⏪️:rewind:还原更改。
-- 🔀:twisted_rightwards_arrows:合并分支。
-- 📦️:package:添加或更新已编译的文件或包。
-- 👽️:alien:由于外部 API 更改而更新代码。
-- 🚚:truck:移动或重命名资源（例如：文件、路径、路由）。
-- 📄:page_facing_up:添加或更新许可证。
+- 📝:memo:新增或更新文件。
+- 🚀:rocket:部署項目。
+- 💄:lipstick:新增或更新 UI 和樣式檔案。
+- 🎉:tada:開始一個專案。
+- ✅:white_check_mark:新增、更新或通過測試。
+- 🔒️:lock:修復安全問題。
+- 🔐:closed_lock_with_key:新增或更新機密。
+- 🔖:bookmark:發布/版本標籤。
+- 🚨:rotating_light:修復編譯器/linter 警告。
+- 🚧:construction:工作正在進行中。
+- 💚:green_heart:修復 CI 建置。
+- ⬇️:arrow_down:降級依賴。
+- ⬆️:arrow_up:升級依賴項。
+- 📌:pushpin:將依賴項固定到特定版本。
+- 👷:construction_worker:新增或更新 CI 建置系統。
+- 📈:chart_with_upwards_trend:新增或更新分析或追蹤程式碼。
+- ♻️:recycle:重構程式碼。
+- ➕:heavy_plus_sign:新增依賴項。
+- ➖:heavy_minus_sign:刪除依賴項。
+- 🔧:wrench:新增或更新設定檔。
+- 🔨:hammer:新增或更新開發腳本。
+- 🌐:globe_with_meridians:國際化和在地化。
+- ✏️:pencil2:修正錯字。
+- 💩:poop:編寫需要改進的糟糕程式碼。
+- ⏪️:rewind:還原更改。
+- 🔀:twisted_rightwards_arrows:合併分支。
+- 📦️:package:新增或更新已編譯的檔案或套件。
+- 👽️:alien:由於外部 API 更改而更新程式碼。
+- 🚚:truck:移動或重新命名資源（例如：檔案、路徑、路由）。
+- 📄:page_facing_up:新增或更新許可證。
 - 💥:boom:引入重大更改。
-- 🍱:bento:添加或更新资产。
-- ♿️:wheelchair:提高可访问性。
-- 💡:bulb:在源代码中添加或更新注释。
-- 🍻:beers:醉醺醺地写代码。
-- 💬:speech_balloon:添加或更新文本和文字。
-- 🗃️:card_file_box:执行与数据库相关的更改。
-- 🔊:loud_sound:添加或更新日志。
-- 🔇:mute:删除日志。
-- 👥:busts_in_silhouette:添加或更新贡献者。
-- 🚸:children_crossing:改善用户体验/可用性。
-- 🏗️:building_construction:进行架构更改。
-- 📱:iphone:致力于响应式设计。
-- 🤡:clown_face:模拟事物。
-- 🥚:egg:添加或更新复活节彩蛋。
-- 🙈:see_no_evil:添加或更新 .gitignore 文件。
-- 📸:camera_flash:添加或更新快照。
-- ⚗️:alembic:进行实验。
-- 🔍️:mag:改善搜索引擎优化。
-- 🏷️:label:添加或更新类型。
-- 🌱:seedling:添加或更新种子文件。
-- 🚩:triangular_flag_on_post:添加、更新或删除功能标志。
-- 🥅:goal_net:捕捉错误。
-- 💫:dizzy:添加或更新动画和过渡。
-- 🗑️:wastebasket:弃用需要清理的代码。
-- 🛂:passport_control:处理与授权、角色和权限相关的代码。
-- 🩹:adhesive_bandage:对非关键问题的简单修复。
-- 🧐:monocle_face:数据探索/检查。
-- ⚰️:coffin:删除死代码。
-- 🧪:test_tube:添加失败的测试。
-- 👔:necktie:添加或更新业务逻辑
-- 🩺:stethoscope:添加或更新健康检查。
-- 🧱:bricks:基础设施相关的变化。
-- 🧑‍💻:technologist:提升开发者体验
-- 💸:money_with_wings:添加赞助或与金钱相关的基础设施。
+- 🍱:bento:新增或更新資產。
+- ♿️:wheelchair:提高可訪問性。
+- 💡:bulb:在原始碼中新增或更新註釋。
+- 🍻:beers:醉醺醺地寫程式碼。
+- 💬:speech_balloon:新增或更新文字。
+- 🗃️:card_file_box:執行與資料庫相關的更改。
+- 🔊:loud_sound:新增或更新日誌。
+- 🔇:mute:刪除日誌。
+- 👥:busts_in_silhouette:新增或更新貢獻者。
+- 🚸:children_crossing:改善用戶體驗/可用性。
+- 🏗️:building_construction:進行架構更改。
+- 📱:iphone:致力於響應式設計。
+- 🤡:clown_face:模擬事物。
+- 🥚:egg:新增或更新復活節彩蛋。
+- 🙈:see_no_evil:新增或更新 .gitignore 檔案。
+- 📸:camera_flash:新增或更新快照。
+- ⚗️:alembic:進行實驗。
+- 🔍️:mag:改善搜索引擎優化。
+- 🏷️:label:新增或更新類型。
+- 🌱:seedling:新增或更新種子檔案。
+- 🚩:triangular_flag_on_post:新增、更新或刪除功能標誌。
+- 🥅:goal_net:捕捉錯誤。
+- 💫:dizzy:新增或更新動畫和過渡。
+- 🗑️:wastebasket:棄用需要清理的程式碼。
+- 🛂:passport_control:處理與授權、角色和權限相關的程式碼。
+- 🩹:adhesive_bandage:對非關鍵問題的簡單修復。
+- 🧐:monocle_face:資料探索/檢查。
+- ⚰️:coffin:刪除死程式碼。
+- 🧪:test_tube:新增失敗的測試。
+- 👔:necktie:新增或更新業務邏輯
+- 🩺:stethoscope:新增或更新健康檢查。
+- 🧱:bricks:基礎設施相關的變化。
+- 🧑‍💻:technologist:提升開發者體驗
+- 💸:money_with_wings:新增贊助或與金錢相關的基礎設施。
