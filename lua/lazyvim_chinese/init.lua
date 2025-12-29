@@ -15,7 +15,11 @@ local function apply(trans_map, mode)
 		-- which-key v3 syntax
 		local specs = {}
 		for lhs, name in pairs(trans_map) do
-			table.insert(specs, { lhs, group = name, mode = mode or "n" })
+			if name:sub(1, 1) == "+" then
+				table.insert(specs, { lhs, group = name:sub(2), mode = mode or "n" })
+			else
+				table.insert(specs, { lhs, desc = name, mode = mode or "n" })
+			end
 		end
 		wk.add(specs)
 	else
@@ -72,8 +76,8 @@ function M.setup()
 		pattern = "VeryLazy",
 		callback = function()
 			if enabled then
-				apply(translate.cn)
-				apply(translate.cn_v, "v")
+				-- apply(translate.cn)
+				-- apply(translate.cn_v, "v")
 				dashboard.apply(true)
 			else
 				apply(translate.en)
